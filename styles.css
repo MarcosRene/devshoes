@@ -409,10 +409,11 @@ ul {
   width: 100%;
   padding: 0 0 0 8px;
   border: 1px solid var(--zinc-600);
-  background-color: var(--zinc-800);
+  background-color: var(--zinc-900);
   border-radius: 8px;
   display: flex;
   gap: 8px;
+  overflow: hidden;
 }
 
 .modal-container .modal-body .quantity .quantity-content input {
@@ -424,8 +425,9 @@ ul {
 
 .modal-container .modal-body .quantity .quantity-content .button-group {
   width: 30px;
-  display: block;
+  height: 100%;
   border-left: 1px solid var(--zinc-600);
+  background-color: var(--zinc-800);
 }
 
 .modal-container .modal-body .quantity .quantity-content .button-group button:first-child {
