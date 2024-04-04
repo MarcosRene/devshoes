@@ -376,6 +376,7 @@ ul {
   gap: 8px;
 }
 
+
 .modal-container .modal-body .sizes .size-list li {
   height: 40px;
   width: 40px;
@@ -395,6 +396,10 @@ ul {
 .modal-container .modal-body .sizes .size-list li:hover {
   background-color: var(--blue-600);
   border-color: transparent;
+}
+
+.modal-container .modal-body .sizes .size-list li.active {
+  background-color: var(--blue-600);
 }
 
 .modal-container .modal-body .quantity .quantity-content {
